@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -8,28 +11,28 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <!-- bokking page -->
-<body class="main-bg">
+<body class="main-bg"  >
         <div class="login-container text-c animated flipInX">
-                <div>
-                    <h1 class="logo-badge text-whitesmoke"><span class="fa fa-user-circle"></span></h1>
-                </div>
-                    <h3 class="text-whitesmoke" style="font-size: 30px;
-    font-family: cursive;
-    color: floralwhite;"    >barbershop booking </h3>
+            <div>
+                   
+                    <h3 class="text-whitesmoke" style="
+    font-family: cursive;  font-size:40px;
+    color: #a57618;
+    margin: auto; "    >Barbershop booking </h3></div>
                     <p class="text-whitesmoke" style="font-size: 15px;
     font-family: cursive;
     color: floralwhite;"    >book an appoinment</p>
                 <div class="container-content">
-                    <form class="margin-t">
-                        <div class="form-group">
-                            <input type="text" maxlength="20" class="form-control" placeholder="full name" required="">
+                    <form action="data.php" method="POST" class="margin-t" 
+                         class="form-group"  >
+                            <input type="Fname" name="Fname" maxlength="20" class="form-control" placeholder="fullname">
 
-                          v  <input type="tel" class="form-control" placeholder="mobile.no"  required="" >
-                            <input type="date" class="form-control" placeholder="date" required="">
-                            <input type="time" class="form-control" placeholder="time" required="">
-                        </div>
-                       
-                          <button type="book" class="form-button button-l margin-b">BOOK NOW</button>
+                            <input type="tel" name="tel"  class="form-control" >
+                            <input type="date" name="date" class="form-control" placeholder="chekin-date" required="">
+                            <input type="time" name="time" class="form-control" placeholder="checkin-time"></div>
+                          <!--  -->
+                        
+                        <input type="submit" name="submit"  class="form-button button-l margin-b"></form>
 
 
 
@@ -73,3 +76,4 @@
   </p>
 
 </body>
+</footer></body></html>
